@@ -12,6 +12,8 @@ Senha - euamoaleticia
 
 PS: Ao adicionar uma postagem, não inclua caracteres especiais, como "ç" e acentos. Também não adicione virgulas
 
+Trabalho produzido por:
+
 <div align="center">
     <table>
     <tr>
