@@ -1,0 +1,148 @@
+.add{
+    background: rgb(255, 255, 255);
+    opacity: 0.3;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.add:hover{
+    opacity:0.5;
+}
+
+html::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(296deg, #FB4DFC 0%, #35126E 100%);
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+body {
+    position: relative;
+    z-index: 1;
+}
+
+.sec-bem{
+    margin-top: 0px;
+}
+
+.caixa-texto{
+    width: 600px;
+    background-color: #ffffff;
+    max-width: 800px;
+    max-height: 800px;
+}
+.espacinho{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+@keyframes slideDownMenu {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.toggle {
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.625rem;
+    border-radius: 5px;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    display: flex;
+}
+
+.js-menu{
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .js-menu{
+        display: none;
+        animation: fadeOut .3s forwards;
+    }
+
+    .js-menu.active{
+        display: block;
+        position: absolute;
+        top: 93px;
+        left: 0;
+        width:50px;
+        height: 100%;
+        background-color: #4C197E;
+        z-index: 100;
+        animation: slideDownMenu .5s forwards;
+
+    }
+
+    .toggle span.active{
+        animation: slideDownMenu .5s forwards;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    .imagem > img{
+        display: flex;
+        max-width: 35rem;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .conteudo > div{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+        
+    }
+
+    .imagem > img{
+        display: flex;
+        max-width: 70%;
+    }
+
+
+}
+    
+@media screen and (max-width: 500px) {
+    .conteudo > div{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+        
+    }
+
+    .imagem > img{
+        display: none;
+    }
+}
+
+.msg {
+    display: none;
+    color: var(--color-white);
+    background-color: rgba(248, 56, 56, 0.3);
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.js-msg.active {
+    display: block;
+}
