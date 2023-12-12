@@ -1,13 +1,18 @@
 # Blog
-O projeto de API Flask do nosso grupo é um tipo de diário virtual, como um blog pessoal. Com o nome inspirado na série Gossip Girl. 
+O projeto de API Flask do nosso grupo é um tipo de diário virtual, como um blog pessoal. Com o nome e icon inspirados na série Gossip Girl. 
 Para mais informações sobre o projeto acesse a documentação:
 - https://stirring-maple-48f.notion.site/Documenta-o-Blog-XOXO-82d5935e4c2b4442a946c322a369353b
 
 Para melhor visualização do README acesse o seu preview no github:
-- 
+- https://github.com/Arthurzinho02/Blog.git
+
+Link do site:
+- https://replit.com/@arthurmatheus06/XOXOIndex
 
 Informações para login:
+
 Email - teachercadu@gmail.com
+
 Senha - euamoaleticia
 
 PS: Ao adicionar uma postagem, não inclua caracteres especiais, como "ç" e acentos. Também não adicione virgulas
