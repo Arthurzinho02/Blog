@@ -146,3 +146,12 @@ body {
 .js-msg.active {
     display: block;
 }
+
+@media screen and (max-width: 600px) {
+    .caixa-texto{
+        width: 300px;
+        background-color: #ffffff;
+        max-width: 500px;
+        max-height: 500px;
+    }
+}
