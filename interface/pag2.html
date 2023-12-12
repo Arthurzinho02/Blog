@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Koulen&family=League+Spartan:wght@300&family=Poppins&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Blog | XOXO</title>
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <header>
+        <nav class="navbar"
+            style="background: linear-gradient(180deg, #4C197E -51.03%, rgba(76, 25, 126, 0.00) 121.13%);">
+            <div class="container">
+                <div>
+                    <img src="./img/image-removebg-preview (1) 2.png"></img>
+                    <a class="navbar-brand" style="color: white; font-weight: 500;">xoxo</a>
+                </div>
+                <a href="http://localhost:5500/interface/index.html"
+                    style=" color: white; background: linear-gradient(262.68deg, #FB4DFC -57.31%, #7E57C2 78.51%); font-weight: 700; font-size: 14px; width: 102px; box-shadow:0px 2px 0px 0px rgba(0, 0, 0, 0.217); text-decoration:none;" class="btn rounded-pill"">HOME</a>
+            </div>
+        </nav>
+    </header>
+
+    <!--Section Escrita superior-->
+    <section class="container" style="color: white;">
+        <div class="d-flex flex-column"
+            style="align-items: center; margin-top: 40px; text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+            <h1 style="font-family: 'Roboto Condensed', sans-serif; font-size: 65px ; font-weight: 600; letter-spacing: -2px;">DIÁRIO VIRTUAL</h1>
+
+            <p>Bem-vindos ao XOXO, compartlhe neste espaço suas experiências, aprendizados e dicas. </p>
+        </div>
+    </section>
+
+    <!--Carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide center-block mt-5 text-center container">
+        <div id="CarroselI" class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <div class="rounded mx-auto d-block">
+                    <p class=""><span type="button" data-bs-toggle="modal" data-bs-target="#novaPostagem"
+                            class="add material-symbols-outlined mt-3 shadow"
+                            style="color: black; font-size: 80px; padding-top: 9px; font-weight: 700;">
+                            add
+                        </span></p>
+
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev" >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next" >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!--MODAL EXCLUIR-->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Excluir</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <p>Tem certeza de que deseja excluir essa nota?</p>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button id="ConfirmarEx" type="submit" class="btn btn-dark border-0"
+                        style="color: white; background: linear-gradient(296deg, #FB4DFC 0%, #7E57C2 100% ); font-weight: 600; font-size: 14px; max-width: 100px; height: 37px;">Confirmar</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--MODAL ALTERAR-->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Alterar Nota</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputName1" class="form-label">Novo título:</label>
+                            <input id="NovoTitulo" type="text" class="form-control" aria-describedby="nameHelp"
+                                required>
+                            <label for="exampleInputName1" class="form-label">Novo texto:</label>
+                            <input id="NovoTexto" type="text" class="form-control" aria-describedby="nameHelp" required>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button id="Confirmar" type="submit" class="btn btn-dark border-0"
+                        style="color: white; background: linear-gradient(296deg, #FB4DFC 0%, #7E57C2 100% ); font-weight: 600; font-size: 14px; max-width: 100px; height: 37px;">Confirmar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--MODAL ADICIONAR NOVA POSTAGEM-->
+    <div class="modal fade" id="novaPostagem" tabindex="-1" aria-labelledby="exampleModalLabel">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Adicionar Nota</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="FormAdd-js">
+                        <div class="mb-3">
+                            <label for="exampleInputName1" class="form-label">Título:</label>
+                            <input id="TITUlO" type="text" class="titulo form-control" aria-describedby="nameHelp"
+                                required>
+                            <label for="exampleInputName1" class="form-label">Texto:</label>
+                            <input id="TEXTO" type="text" class="texto form-control" aria-describedby="nameHelp"
+                                required>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button onclick="adicionar()" type="submit" class="btn btn-dark border-0"
+                        style="color: white; background: linear-gradient(296deg, #FB4DFC 0%, #7E57C2 100% ); font-weight: 600; font-size: 14px; max-width: 100px; height: 37px;">Confirmar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+
+    </div>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../script.js"></script>
+</body>
+
+</html>
