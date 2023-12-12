@@ -7,7 +7,7 @@ Para melhor visualização do README acesse o seu preview no github:
 - https://github.com/Arthurzinho02/Blog.git
 
 Link do site:
-- https://replit.com/@arthurmatheus06/XOXOIndex
+- https://xoxoindex.arthurmatheus06.repl.co/
 
 Informações para login:
 
