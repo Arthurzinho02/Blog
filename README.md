@@ -15,7 +15,7 @@ Email - teachercadu@gmail.com
 
 Senha - euamoaleticia
 
-PS: Ao adicionar uma postagem, não inclua caracteres especiais, como "ç" e acentos. Também não adicione virgulas
+PS: Ao adicionar uma postagem, não inclua caracteres especiais, como "ç" e acentos. Também não adicione. Por favor, lembre-se que estamos hospedando o site de graça então talves você tenha que fazer as requisições mais de uma vez. Obrigada pela compreensão.
 
 <h1> Realizado por: </h1>
 <div align="center">
