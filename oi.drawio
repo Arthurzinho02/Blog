@@ -9,12 +9,12 @@
         </mxCell>
         <mxCell id="jc9jut94SvTGxRuUxwQM-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="jc9jut94SvTGxRuUxwQM-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="710" y="720" as="sourcePoint" />
+            <mxPoint x="710" y="820" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jc9jut94SvTGxRuUxwQM-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" target="jc9jut94SvTGxRuUxwQM-21">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="710" y="720" as="sourcePoint" />
+            <mxPoint x="710" y="820" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jc9jut94SvTGxRuUxwQM-6" value="Funcionário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
@@ -53,7 +53,7 @@
         </mxCell>
         <mxCell id="jc9jut94SvTGxRuUxwQM-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="jc9jut94SvTGxRuUxwQM-13">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="710" y="720" as="targetPoint" />
+            <mxPoint x="710" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jc9jut94SvTGxRuUxwQM-13" value="Start pending file" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
